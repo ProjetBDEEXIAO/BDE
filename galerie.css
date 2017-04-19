@@ -1,0 +1,23 @@
+img
+{
+	width: 25%;
+	height: auto;
+	top
+}
+
+aside
+{
+	position: absolute;
+	margin-left: 77%;
+	background-color: #383838;
+	width: 25%;
+	color: white;
+	list-style-type: none;
+}
+
+aside ul
+{
+	background-color: #383838;
+	color: white;
+	list-style-type: none;
+}
