@@ -1,0 +1,11 @@
+img#piscine
+{
+	float: right;
+	max-width: 100%;
+	height: auto;
+}
+
+body
+{
+    background-attachment: fixed;
+}
