@@ -45,7 +45,7 @@
 		<h2 id="Histo">Historique des activités</h2>
 			<fieldset>
 				<legend>Piscine</legend>
-				<p>C'était trops bien <img src="image3.jpg" alt="Piscine" id="piscine"/></p>
+				<p>C'était trops bien <a href="Galerie.php"><img src="image3.jpg" alt="Piscine" id="piscine"/></a></p>
 		</fieldset>
 		
     <?php include("Footer.php")?>	
