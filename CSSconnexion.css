@@ -19,17 +19,4 @@ label {
 fieldset div {
 	text-align: center;
 }
-/* Change la taille de la police du bandeau de navigation à 20 pixels lorsque la taille passe en dessous de 764 pixels. */
-@media all and (max-width: 763px)
-{
-	nav a {
-		font-size: 20px;
-	}
-}
-/* Change la taille de la police du bandeau de navigation à 15 pixels lorsque la taille passe en dessous de 617 pixels. */
-@media all and (max-width: 616px)
-{
-	nav a {
-		font-size: 15px;
-	}
-}
+
