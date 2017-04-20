@@ -9,3 +9,27 @@ body
 {
     background-attachment: fixed;
 }
+h2
+{
+	font-size: 40px;
+	margin-left: 20%;
+	margin-right: 20%;
+	background-color: #ededed;
+	border: 3px #383838 solid;
+	color: #D90119;
+	text-align: center;	
+}
+@media all and (max-width: 929px)
+{
+	h2{
+		font-size: 30px;
+	border: 2px #383838 solid;
+	}
+
+}
+@media all and (max-width: 873px)
+{
+	h2{
+		font-size: 20px;
+	}
+}
