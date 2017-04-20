@@ -119,7 +119,7 @@ $get_all_activities1->execute();
 		//Display the last activity with a photo
 		echo	'<fieldset>';
 		echo		'<legend>Piscine</legend>';
-		echo		'<p>C\'était trops bien <a href="Galerie.php"><img src="image3.jpg" alt="Piscine" id="piscine"/></a></p>';
+		echo		'<p>C\'était trop bien <a href="Galerie.php"><img src="image3.jpg" alt="Piscine" id="piscine"/></a></p>';
 		echo	'</fieldset>';
 		?>
 	<!-- Open the markup php to include the footer of the page -->
