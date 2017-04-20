@@ -1,0 +1,41 @@
+img
+{
+	width: 25%;
+	height: auto;
+	max-width: 75%;
+}
+
+aside
+{
+	position: absolute;
+	margin-left: 77%;
+	background-color: #383838;
+	width: 25%;
+	color: white;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+aside ul
+{
+	background-color: #383838;
+	color: white;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+media all and (max-width: 929px)
+{
+	aside
+	{
+		font-size: 50%;
+	}
+}
+
+media all and (max-width: 873px)
+{
+	aside
+	{
+		font-size: 25%;
+	}
+}
