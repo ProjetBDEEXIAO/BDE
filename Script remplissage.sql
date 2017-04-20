@@ -17,8 +17,8 @@ INSERT INTO Propos_Activity (id_propos, activity_proposed, description_text, id_
 
 INSERT INTO Event_BDE (id_event, activity_name, detail_text, event_date1, event_date2, vote1, vote2)
  VALUES
-	('', 'CINÉMA - FAST & FURIOUS 8', 'the movie where Vin Diesel a.k.a Dominic Toretto finally died damn... Spoilers Alert', '2017-04-21 14:00:00', '2017-05-04 16:00:00', '0', '0'),
-	('', 'RALLYE DES BARS - Bourgogne', 'Au Petit Barça/ Hendrix PUB -> Rue de Bourgogne because Julien worths it', '2017-04-21 19:00:00', '2017-04-28 21:00:00', '0', '0') ;
+	('', 'CINEMA - FAST & FURIOUS 8', 'the movie where Vin Diesel a.k.a Dominic Toretto finally died damn... Spoilers Alert', '2017-04-21 14:00:00', '2017-05-04 16:00:00', '0', '0'),
+	('', 'RALLYE DES BARS - Bourgogne', 'Au Petit Barcelone/ Hendrix PUB -> Rue de Bourgogne because Julien worths it', '2017-04-21 19:00:00', '2017-04-28 21:00:00', '0', '0') ;
 
 INSERT INTO Picture (id_picture, picture, uploading_date, id_event)
  VALUES
