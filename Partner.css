@@ -1,4 +1,4 @@
-
+/* */
 .titre
 {
 	font-size: 40px;
@@ -9,11 +9,7 @@
 	color: #D90119;
 	text-align: center;
 }
-section
-{
-	
-}
-
+/* */
 p
 {
 	background-color: #ededed;
@@ -24,6 +20,7 @@ p
 	border: 2px #383838 solid;
 	box-shadow: 2px 2px 2px gray;
 }
+/* Change la taille de la police et l'eppaisseur des bordures quand la fenêtre est réduite en dessous de 930 pixel. */
 @media all and (max-width: 929px)
 {
 	.titre{
@@ -34,6 +31,7 @@ p
 		border: 1px #383838 solid;
 	}
 }
+/* Change la taille de la police et l'eppaisseur des bordures quand la fenêtre est réduite en dessous de 874 pixel. */
 @media all and (max-width: 873px)
 {
 	.titre{
@@ -42,9 +40,6 @@ p
 	border: 1px #383838 solid;
 	}
 }
-@media all and (max-width: 818px)
-{
-	
-}
+
 
 
