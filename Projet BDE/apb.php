@@ -1,5 +1,5 @@
 <?php include("Header.php");?>
-<?php include("Footer.php");?>
+
 
 <!DOCTYPE html>                                                      <!-- Describes  the type of document.  -->
 <html>                                                               <!-- html tag is where the html code starts.  -->
@@ -127,15 +127,9 @@
 
     </section>
 <!-- Footer -->
-<footer>        <!-- footer tag is used to set up the legal notices.  -->
-  
-</footer>
+<?php include("Footer.php");?>
 
 
-<!--
-To use this code on your website, get a free API key from Google.
-Read more at: https://www.schools.com/graphics/google_maps_basic.asp
--->
 
 </body>
 </html>
