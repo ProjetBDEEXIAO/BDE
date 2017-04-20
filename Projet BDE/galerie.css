@@ -23,7 +23,7 @@ aside ul
 	list-style-type: none;
 	text-decoration: none;
 }
-
+/*Change la taille de la police du Aside quand la taille-max passe en dessous de 929 pixels.*/
 media all and (max-width: 929px)
 {
 	aside
@@ -31,7 +31,7 @@ media all and (max-width: 929px)
 		font-size: 50%;
 	}
 }
-
+/*Change la taille de la police du Aside quand la taille-max passe en dessous de 874 pixels.*/
 media all and (max-width: 873px)
 {
 	aside
