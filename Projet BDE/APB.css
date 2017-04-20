@@ -1,0 +1,211 @@
+
+/******* this ccs sheet is used to set up the header of APB Page **********/
+
+
+.titre     /* Dispotion of the elements who uses class titre */
+{
+	font-size: 40px;
+	margin-left: 20%;
+	margin-right: 20%;
+	background-color: #ededed;
+	border: 3px #383838 solid;
+	color: #D90119;
+	text-align: center;
+}
+section
+{
+	
+}
+
+p        /* Dispotion of the elements who uses class titre */
+{
+	background-color: #ededed;
+	font-size: 100%;
+	text-align: center;
+	margin-left: 15%;
+	margin-right: 15%;
+	border: 2px #383838 solid;
+	box-shadow: 2px 2px 2px gray;
+}
+
+h4     /* Dispotion of the titles who uses h4 tag */
+{
+	margin-left: 30px;
+}
+
+{
+	margin-left: 30px;
+}
+
+
+article			/* Dispotion of the elemnts who uses article tag */
+{
+	background-color: #ededed;
+	font-size: 100%;
+	text-align: center;
+	margin-left: 15%;
+	margin-right: 15%;
+	border: 2px #383838 solid;
+	box-shadow: 2px 2px 2px gray;
+}
+
+
+.sous_titre      /* Dispotion of the elements who uses class sous_titre */
+{
+    font-size: 30px;
+    margin-left: 35%;
+    margin-right: 35%;
+    background-color: #ededed;
+    border: 3px #D90119 solid;
+    color: #383838;
+    text-align: center;
+    box-shadow: 3px 3px 0px gray;
+    text-align: center;   
+}
+
+#conteneur       /* Dispotion of the elements who uses the id conteneur */
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: #ededed;
+    font-size: 100%;
+    text-align: center;
+    margin-left: 140px;
+    margin-right: 140px;
+    border: 2px #383838 solid;
+    box-shadow: 2px 2px 2px gray;
+}
+
+
+/* All the media queries are used to set up many elements where the windows is reduced */
+/* the only elements which changes on those queries are the size of text or the borders */
+
+@media all and (max-width: 1098px)
+{
+	.titre{
+		font-size: 25px;
+	border: 2px #383838 solid;
+	}
+	p{
+		border: 1px #383838 solid;
+	}
+	.sous_titre{
+		font-size: 25px;
+	border: 1px #383838 solid;
+	}
+	#conteneur{
+		font-size: 25px;
+	border: 1px #383838 solid;
+	}
+	.element1{
+		font-size: 12px;
+	
+	}
+	.element2{
+		font-size: 12px;
+	
+	}
+	.element2{
+		font-size: 12px;
+	
+	}
+	.element3{
+		font-size: 12px;
+	
+	}
+	.element4{
+		font-size: 12px;
+	
+	}
+	.element5{
+		font-size: 12px;
+	
+	}
+	.element6{
+		font-size: 12px;
+	
+	}
+}
+@media all and (max-width: 908px)
+{
+	.titre{
+		font-size: 12px;
+	border: 1px #383838 solid;
+	}
+	.sous_titre{
+		font-size: 12px;
+	border: 1px #383838 solid;
+	}
+	#conteneur{
+		font-size: 12px;
+	border: 1px #383838 solid;
+	}
+	.element1{
+		font-size: 6px;
+	}
+	.element2{
+		font-size: 6px;
+	}
+	.element3{
+		font-size: 6px;
+	}
+	.element4{
+		font-size: 6px;
+	}
+	.element5{
+		font-size: 6px;
+	}
+	.element6{
+		font-size: 6px;
+	}
+}
+@media all and (max-width: 600px)
+{
+	.titre{
+		font-size: 12px;
+	border: 1px #383838 solid;
+	}
+	.sous_titre{
+		font-size: 12px;
+	border: 1px #383838 solid;
+	}
+	#conteneur{
+		font-size: 12px;
+	}
+	.element1{
+		font-size: 5px;
+	}
+	.element2{
+		font-size: 5px;
+	}
+	.element3{
+		font-size: 5px;
+	}
+	.element4{
+		font-size: 5px;
+	}
+	.element5{
+		font-size: 5px;
+	}
+	.element6{
+		font-size: 5px;
+	}
+}
+
+@media all and (max-width: 763px)
+{
+	nav a {
+		font-size: 20px;
+	}
+}
+@media all and (max-width: 616px)
+{
+	nav a {
+		font-size: 15px;
+	}
+}
+
+
+
+
+}
