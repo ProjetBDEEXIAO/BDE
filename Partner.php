@@ -9,7 +9,7 @@
 <link rel="stylesheet" type="text/css" href="header.css">
 </header>
 
-
+<!--display a short text about the partner -->
 <section>  
 <p class="titre">Le partenariat</p>
    <p>Le BDE a la chance de possèder quelques partenaires de confiance, dans le cadre des activités que nous vous proposons, nous il est possible d'avoir certaine réduction ou d'avoir une happy hour plus longue sous présentation de votre carte étudiante du CESI.</p><p>Vous pouvez retrouver l'ensemble de nos partenaires ici :<br>.<br>.<br>.<br>.<br>.<br>.<br> 
