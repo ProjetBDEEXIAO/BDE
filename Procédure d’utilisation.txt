@@ -1,0 +1,20 @@
+Procédure d’utilisation : 
+
+Étape 0] 
+Prérequis : avoir installer MAMP / WAMP.
+
+Étape 1] 
+Télécharger le fichier Projet à partir du répertoire BDE du GitHub du groupe 
+( https://github.com/ProjetBDEEXIAO ).
+
+Étape 2] 
+Placer le contenu du dossier Projet dans le répertoire www (sous WAMP) ou dans le répertoire htdocs (sous MAMP).
+
+Étape 3] 
+Récupérer le script de remplissage de la base de données sur GitHub.
+
+Étape 4] 
+Exécuter le script via PHPMyAdmin.
+
+Étape 5] 
+Pour accéder au site du BDE, dans votre navigateur favori, rentrer localhost:8888 dans la barre de recherche. Une fois sur l’index cliquer sur Connexion pour accéder à la page de connexion. 
