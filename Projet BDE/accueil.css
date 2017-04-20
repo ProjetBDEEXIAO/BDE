@@ -1,0 +1,105 @@
+
+/*Carrousel Activités*/
+/*Display the picture on 100% of the screen and hide the rest of the slider*/
+div#sliderActivites 
+{
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+}
+
+/*Set the slider's width and the time for unwind the slider*/
+div#sliderActivites  figure 
+{
+	  position: relative; 
+	  width: 300%;
+	  margin: 0;
+	  padding: 0;
+	  font-size: 0;
+	  left: 400;
+	  text-align: center;
+	  animation: 9s slidy infinite;
+}
+
+/*Set the picture's width*/
+div#sliderActivites  figure img 
+{
+	width: 33.3%;
+	height: auto;
+}
+
+
+
+
+/*Carrousel Photos*/
+/*Display the picture on 100% of the screen and hide the rest of the slider*/
+div#sliderPhotos
+{
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+}
+
+/*Set the slider's width and the time for unwind the slider*/
+div#sliderPhotos figure 
+{
+	  position: relative; 
+	  width: 300%;
+	  margin: 0;
+	  padding: 0;
+	  font-size: 0;
+	  left: 400;
+	  text-align: center;
+	  animation: 9s slidy infinite;
+}
+
+/*Set the picture's width*/
+div#sliderPhotos figure img 
+{
+	width: 33.3%;
+	height: auto;
+}
+
+
+/*Carrousel Boutique*/
+/*Display the picture on 100% of the screen and hide the rest of the slider*/
+div#sliderBoutique
+{
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+}
+
+/*Set the slider's width and the time for unwind the slider*/
+div#sliderBoutique figure 
+{
+	  position: relative; 
+	  width: 300%;
+	  margin: 0;
+	  padding: 0;
+	  font-size: 0;
+	  left: 400;
+	  text-align: center;
+	  animation: 9s slidy infinite;
+}
+
+/*Set the picture's width*/
+div#sliderBoutique figure img 
+{
+	width: 33.3%;
+	height: auto;
+}
+
+/*Ordonnate the animation of the carousel*/
+@keyframes slidy 
+{
+  0% { center: 0%; }
+  20% { left: 0%; }
+  25% { left: -100%; }
+  45% { left: -100%; }
+  50% { left: -200%; }
+  70% { left: -200%; }
+  75% { left: -300%; }
+  95% { left: -300%; }
+  100% { left: -400%; }
+}
