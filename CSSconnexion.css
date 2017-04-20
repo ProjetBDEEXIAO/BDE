@@ -1,0 +1,30 @@
+/* CSS page for Connexion.php*/
+
+html, body {
+	padding: 0;
+	margin: 0;
+}
+/* put the color #ededed at the background */
+input {
+	background-color: #ededed;
+}
+/* */
+fieldset {
+	width: 20%;
+	height : 30%;
+	margin-left: auto;
+	margin-right: auto;
+    border:2px solid #383838;
+    background: #e2e2e2;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+    border-radius:8px;
+}
+/* align the text at the label center */
+label {
+	text-align: center;
+}
+/* align the text at the field center */
+fieldset div {
+	text-align: center;
+}
